@@ -1,0 +1,191 @@
+.head{
+    /* 设置宽度高度背景颜色 */
+    height: 50px;
+    width:100%;
+    background:rgb(189, 181, 181);
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+        z-index: 10;
+}
+.head ul{
+    /* 清除ul标签的默认样式 */
+    top: 2px;
+    width: 80%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.head li {
+    float:left; /* 使li内容横向浮动，即横向排列  */
+    display: inline;
+    margin-right:10px;  /* 两个li之间的距离*/
+}
+
+.head li a{
+   /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* 去除下划线 */
+}
+.head li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background-color: #111;
+}
+.product{
+position: fixed;
+top: 0;
+left: 45%;
+z-index: 15;
+margin: 10px auto;
+width: 172px;
+height: 28px;
+color: #150f0f;
+font-family: "Roboto-Bold";
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+.tree {
+position: absolute;
+top: 1.92%;
+right: 3%;
+left: 1%;
+width: 98%;
+height: 13.94%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+
+/* border-bottom: -1px; */
+}
+
+
+* {
+margin: 0;
+padding: 0;
+
+}
+
+div {
+/* border: 1px solid red; */
+}
+
+.select{
+margin-left:0;
+background:#fafdfe;
+z-index: 11;
+height:28px;
+width:180px;
+line-height:28px;
+border:1px solid #9bc0dd;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+border-radius:2px;
+
+}
+/*整个容器*/
+.main {
+position: relative;
+height: 3225px;
+width: 1500px;
+
+}
+/*头部*/
+
+
+.xuanze{
+    position: absolute;
+    top: 15.8%;
+height: 1.5%;
+width: 98%;
+align-content: center;
+left:1% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+.xuanzek{
+position: absolute;
+    top: 15.80%;
+left: 40%;
+}
+.zongtitopo {
+position: absolute;
+height: 19.344%;
+width: 53%;
+top: 17.438%;
+left:1%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+.jubutopo {
+position: absolute;
+height: 19.344%;
+width: 44%;
+top: 17.438%;
+left: 55%;
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+.Sangji{
+position: absolute;
+width: 98%;
+left:1%;
+height : 23.25%;
+top: 37.2%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+.top {
+position: absolute;
+height: 17.44%;
+width: 52%;
+top:60.8%;
+left:1%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+.zhexiantu {
+position: absolute;
+height: 17.44%;
+width: 45%;
+top: 60.8%;
+left: 54%;
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+
+
+/*左部*/
+.right {
+width: 45%;
+position: absolute;
+height: 21.0%;
+top: 78.50%;
+left: 54%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+
+
+/*下部*/
+.left {
+position: absolute;
+width: 52%;
+height: 21.0%;
+top: 78.5%;
+left:1%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+solid-color: aquamarine;
+}
+
+.foot{
+position: absolute;
+top: 99.5%;
+background-color: bisque;
+}
